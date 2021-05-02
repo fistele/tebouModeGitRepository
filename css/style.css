@@ -1,0 +1,371 @@
+body{
+    overflow-x: hidden !important;
+}
+
+.header-content{
+    min-height: calc(100vh - 0px);
+    max-height: calc(100vh - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+}
+
+
+.header-content::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.header-content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-row{
+    height: auto;
+    width: 100%;
+}
+
+.left-div{
+    position: absolute;
+    background: black;
+    opacity: 0.7;
+    height: 100vh;
+    top:0;
+    left: 0;
+}
+
+.logo-design{
+    position: absolute;
+    top:20vh;
+    left: 46%;
+}
+
+.tebou-text{
+    position: absolute;
+    top:40vh;
+    left: 40%;
+}
+
+.mode-text{
+    position: absolute;
+    top:40vh;
+    left: 51%;
+}
+
+.hfe-text{
+    font-size: 50px;
+    position: absolute;
+    top:53vh;
+    left: 23.8%;
+}
+
+.line-style{
+    height: 3px;
+    width: 100px;
+    background: #cc8e35;
+}
+
+.text-about{
+    font-size: 17px;
+}
+
+.button-style{
+    outline:none;
+    color: white;
+    font-size:15px;
+    background:#cc8e35;
+    height: 45px;
+    border:2px solid black;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+
+.frame-left{
+    min-height: calc(300px - 0px);
+    max-height: calc(300px - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:300px;
+    border-top-right-radius:100%;
+}
+
+
+.frame-left::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.frame-left::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.frame-right{
+    min-height: calc(300px - 0px);
+    max-height: calc(300px - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:300px;
+    border-top-left-radius:100%;
+}
+
+
+.frame-right::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.frame-right::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.frame-row{
+    height: auto;
+    width: 100%;
+}
+
+.frame6{
+    min-height: calc(50vh - 0px);
+    max-height: calc(50vh - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+    border:3px solid black;
+}
+
+
+.frame6::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.frame6::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.frame-img{
+    width: 100%;
+}
+
+.galery-btn{
+    background:#cc8e35;
+    border:2px solid black;
+    height:50px;
+    padding-left:30px;
+    padding-right:30px;
+    outline:none;
+    color:white;
+    font-size: 17px;
+    position: absolute;
+    margin-top: -54vh;
+    left:43%;   
+}
+
+
+
+
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+.input-style{
+    height: 70px;
+    width: 350px;
+    border:0;
+    background: white;
+    font-size: 15px;
+    resize: none;
+    padding:15px;
+}
+
+.sendBtn{
+    border: 0;
+    background: #cc8e35;
+    color: white;
+    font-size: 15px;
+    height:70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline:none;
+    margin-left: 0px;
+}
+
+
+footer{
+    background: black;
+    padding:50px;
+    padding-top:80px !important;
+    padding-bottom:0px !important;
+}
+
+
+.footer-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0;
+    background: white;
+    margin-left:50px;
+}
+
+.noLinkStyle{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-style{
+    background: black;
+}
+
+.currentImageframe{
+    min-height: calc(70vh - 0px);
+    max-height: calc(70vh - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+    background: black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+
+.currentImageframe::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.currentImageframe::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.currentImageRow{
+    height: auto;
+    width: 100%;
+}
+
+.currentImageStyle{
+    height: 70vh;
+    width: auto;
+}
+
+.listImageframe{
+    min-height: calc(auto - 0px);
+    max-height: calc(70vh - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+    padding-right: 10px;
+}
+
+
+.listImageframe::-webkit-scrollbar {
+  width: 9px;
+  background: transparent;
+}
+
+.listImageframe::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.listImageRow{
+    height: auto;
+    width: 100%;
+}
+
+.dlistImageframe{
+    min-height: calc(50vh - 0px);
+    max-height: calc(50vh - 0px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width:100%;
+    background: black;
+    border: 3px solid black;
+    margin-bottom:10px;
+}
+
+
+.dlistImageframe::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.dlistImageframe::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dlistImageRow{
+    height: auto;
+    width: 100%;
+}
+
+.listImageStyle{
+    height: 60vh;
+    width: auto;
+}
+
+.contactInputStyle{
+    height:44px;
+    width:100%;
+    border:2px solid black;
+    background: black;
+    color: white;
+    padding-left:15px;
+    border-radius:0;
+}
+
+.contactAreaStyle{
+    height:135px;
+    width:100%;
+    border:2px solid black;
+    background: black;
+    color: white;
+    padding-left:15px;
+    resize: none;
+    border-radius:0;
+}
+
+.sendContactBtn{
+    padding: 0;
+    border: 2px solid black;
+    background: #cc8e35;
+    color: black;
+    height: 50px;
+    outline:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-right: 30px;
+}
+
+.currentPageBtn{
+    background: #252525;
+    height: 42px;
+    border:0;
+    padding-left:25px;
+    padding-right:25px;
+    border-radius: 0px;
+}
